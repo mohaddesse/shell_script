@@ -38,3 +38,6 @@ ls *.txt|wc -l
 # grep -c -e apple -e orange fruit.txt /// e ==> either / c==> count
 # grep -v apple fruit.txt // show all line that do not contain pattern
 ## 
+
+echo ${path}
+
