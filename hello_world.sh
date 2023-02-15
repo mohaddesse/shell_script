@@ -27,3 +27,17 @@ export myName="mohi"
 read -p 'File: ' Filename
 path=`readlink -f ${Filename}`
 echo ${path}
+
+### and
+touch 1.txt\
+    && touch 2.txt\
+    && touch 3.txt
+ls *.txt|wc -l
+###
+###### filter text
+# grep -c -e apple -e orange fruit.txt /// e ==> either / c==> count
+# grep -v apple fruit.txt // show all line that do not contain pattern
+## 
+
+echo ${path}
+
